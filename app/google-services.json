@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "82359424833",
+    "firebase_url": "https://my-phase2-default-rtdb.firebaseio.com",
+    "project_id": "my-phase2",
+    "storage_bucket": "my-phase2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82359424833:android:87ad0ab79e5891ea4833c0",
+        "android_client_info": {
+          "package_name": "com.example.mercedesnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82359424833-4d9ifmb18h9c3cf0gceef7h3rq66cfd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNsSDyL1VmQXrlXTfuDKGmCjRHZVHqK_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82359424833-4d9ifmb18h9c3cf0gceef7h3rq66cfd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82359424833:android:7f0a6a4c36b9feef4833c0",
+        "android_client_info": {
+          "package_name": "com.example.myphase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82359424833-4d9ifmb18h9c3cf0gceef7h3rq66cfd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNsSDyL1VmQXrlXTfuDKGmCjRHZVHqK_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82359424833-4d9ifmb18h9c3cf0gceef7h3rq66cfd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
