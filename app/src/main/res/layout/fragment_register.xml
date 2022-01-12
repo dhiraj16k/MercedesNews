@@ -87,21 +87,6 @@
                 android:paddingEnd="6dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#FFFFFF"
-                    android:hint="Name"
-                    android:inputType="text" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="6dp"
-                android:paddingStart="6dp"
-                android:paddingEnd="6dp">
-
-                <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/newemailEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -6,12 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
-import com.example.mercedesnews.MainActivity
+import com.example.mercedesnews.ui.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.example.mercedesnews.*
 import com.example.mercedesnews.databinding.FragmentProfileBinding
-import kotlinx.android.synthetic.main.fragment_profile.*
 
 class ProfileFragment : Fragment(R.layout.fragment_profile) {
 

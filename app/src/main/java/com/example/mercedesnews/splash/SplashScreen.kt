@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.mercedesnews.R
 import android.os.Handler
 import android.os.Looper
-import com.example.mercedesnews.MainActivity
+import com.example.mercedesnews.ui.MainActivity
 
 class SplashScreen : AppCompatActivity() {
 

@@ -1,7 +1,8 @@
-package com.example.mercedesnews
+package com.example.mercedesnews.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mercedesnews.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
