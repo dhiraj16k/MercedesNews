@@ -41,6 +41,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         binding.btnRegLogin.setOnClickListener{
             findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToRegisterFragment())
         }
+        activity?.overridePendingTransition(R.anim.slide_from_right,R.anim.slide_to_left)
 
         progressDialog = ProgressDialog(requireContext())
         progressDialog.setTitle("Please Wait")

@@ -51,6 +51,8 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
             actionRegisterFragmentToLoginFragment())
         }
 
+        activity?.overridePendingTransition(R.anim.slide_from_left,R.anim.slide_to_right)
+
         binding.buttonLogin.setOnClickListener{
             validateData()
         }

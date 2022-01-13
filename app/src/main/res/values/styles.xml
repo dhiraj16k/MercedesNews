@@ -9,4 +9,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="BgColor" >
+        <attr name="backgroundColor" format="color" />
+        <attr name="itemFillColor" format="color" />
+        <attr name="rotate" format="boolean" />
+    </declare-styleable>
 </resources>
