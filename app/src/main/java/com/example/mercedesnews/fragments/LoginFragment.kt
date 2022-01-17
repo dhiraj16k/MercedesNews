@@ -55,6 +55,11 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
             validateData()
         }
 
+        binding.buttonGuest.setOnClickListener {
+            val intent = Intent (activity, NewsActivity::class.java)
+            activity?.startActivity(intent)
+        }
+
     }
 
     private fun validateData() {
