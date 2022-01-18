@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guest_news_nav_graph"
+    app:startDestination="@id/guestTopNewsFragment">
+
+    <fragment
+        android:id="@+id/guestTopNewsFragment"
+        android:name="com.example.mercedesnews.fragments.GuestTopNewsFragment"
+        android:label="GuestTopNewsFragment" />
+    <fragment
+        android:id="@+id/guestSavedNewsFragment"
+        android:name="com.example.mercedesnews.fragments.GuestSavedNewsFragment"
+        android:label="GuestSavedNewsFragment" />
+    <fragment
+        android:id="@+id/guestProfileFragment"
+        android:name="com.example.mercedesnews.fragments.GuestProfileFragment"
+        android:label="GuestProfileFragment" />
+</navigation>

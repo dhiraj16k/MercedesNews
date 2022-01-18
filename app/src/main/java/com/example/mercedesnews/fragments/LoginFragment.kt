@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.example.mercedesnews.R
 import com.example.mercedesnews.databinding.FragmentLoginBinding
+import com.example.mercedesnews.ui.GuestNewsActivity
 import com.example.mercedesnews.ui.NewsActivity
 import com.google.firebase.auth.FirebaseAuth
 import android.app.ProgressDialog as ProgressDialog
@@ -56,7 +57,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         }
 
         binding.buttonGuest.setOnClickListener {
-            val intent = Intent (activity, NewsActivity::class.java)
+            val intent = Intent (activity, GuestNewsActivity::class.java)
             activity?.startActivity(intent)
         }
 
