@@ -39,7 +39,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.btnRegLogin.setOnClickListener{
+        binding.swipeLeft.setOnClickListener{
             findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToRegisterFragment())
         }
         activity?.overridePendingTransition(R.anim.slide_from_right,R.anim.slide_to_left)
@@ -64,11 +64,11 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
     }
 
     private fun validateData() {
-        email = binding.emailEt.text.toString().trim()
+        email = binding.etEmail.text.toString().trim()
         password = binding.passwordEt.text.toString().trim()
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-            binding.emailEt.error = "Invalid Email Format"
+            binding.etEmail.error = "Invalid Email Format"
         }
         else if (TextUtils.isEmpty(password)){
             binding.passwordEt.error = "Please Enter Password"

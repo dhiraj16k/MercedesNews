@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/drawable/btn_custom.xml" value="0.117" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/drawable/et_custom.xml" value="0.117" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/drawable/ic_arrow_left.xml" value="0.117" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/drawable/ic_arrow_right.xml" value="0.117" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/activity_guest_news.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/activity_news.xml" value="0.1" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/fragment_article.xml" value="0.1" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/fragment_register.xml" value="0.22" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/fragment_top_news.xml" value="0.1" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/layout/item_article_preview.xml" value="0.1" />
+        <entry key="..\:/Users/DHIRAKU/AndroidStudioProjects/MercedesNews/app/src/main/res/menu/guest_bottom_navigation_menu.xml" value="0.1796875" />
         <entry key="..\:/Users/DHIRAKU/Downloads/MercedesNews/app/src/main/res/layout/fragment_guest_saved_news.xml" value="0.14130434782608695" />
       </map>
     </option>

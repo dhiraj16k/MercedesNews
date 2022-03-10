@@ -46,7 +46,7 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
-        binding.btnLogRegister.setOnClickListener{
+        binding.swipeRight.setOnClickListener{
             findNavController().navigate(RegisterFragmentDirections.
             actionRegisterFragmentToLoginFragment())
         }

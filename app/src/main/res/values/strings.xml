@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">MercedesNews</string>
+    <string name="app_name">Mercedes News</string>
+    <string name="logintag">Please Enter Your Credentials!!</string>
+    <string name="registertag">Please Enter Your New Credentials!!</string>
+    <string name="e_mail">Please Enter Your Email</string>
+    <string name="password">Please Enter Your Password</string>
+    <string name="login">Login</string>
+    <string name="guest">Guest Login</string>
+    <string name="register">Register</string>
+    <string name="swipe_left_for_register">Press Right To Register</string>
+    <string name="swipe_right_for_login">Press Left To Login</string>
 </resources>

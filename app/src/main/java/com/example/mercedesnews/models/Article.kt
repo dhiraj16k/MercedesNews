@@ -13,7 +13,6 @@ import java.io.Serializable
 data class Article(
     @PrimaryKey(autoGenerate = true)
     var id: Int? = null,
-
     val title: String,
     val url: String,
     val urlToImage: String
